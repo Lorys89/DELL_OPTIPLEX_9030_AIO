@@ -16,7 +16,7 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 | Ram              | 16 GB DDR3 1600 Mhz                |
 | SSD              | SAMSUNG 860 EVO 500 GB (MACOS)     |
 | SSD              | SAMSUNG 860 EVO 500 GB (WINDOWS)   |
-| SmBios           | Macmini 7,1                        |
+| SmBios           | iMac 15,1                          |
 | BootLoader       | OpenCore                           |
 
 ![infobigsur](./Screenshot/infocacbigsur.png)
