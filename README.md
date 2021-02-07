@@ -1,6 +1,6 @@
-# Dell Optiplex 9020 USFF Hackintosh
+# Dell Optiplex 9030 AIO Hackintosh
 
-EFI for Dell Optiplex 9020 USFF with OpenCore bootloader
+EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.jpg)
 
@@ -8,14 +8,14 @@ EFI for Dell Optiplex 9020 USFF with OpenCore bootloader
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i5 4570s (4C-4T 6MB HSW)     |
+| CPU              | Intel i5 4590s (4C-4T 6MB HSW)     |
 | iGPU             | Intel® HD Graphics 4600            |
 | Lan              | Intel I217LM                       |
 | Wifi + BT        | BCM94360HMB (AW-CB160H)            |
 | Audio            | Realtek ALC280                     |
-| Ram              | 8 GB DDR3 1600 Mhz                 |
-| SSD              | SAMSUNG 850 EVO 250 GB (MACOS)     |
-| SSD              | CRUCIAL BX500 120 GB (WINDOWS)     |
+| Ram              | 16 GB DDR3 1600 Mhz                |
+| SSD              | SAMSUNG 860 EVO 500 GB (MACOS)     |
+| SSD              | SAMSUNG 860 EVO 500 GB (WINDOWS)   |
 | SmBios           | Macmini 7,1                        |
 | BootLoader       | OpenCore                           |
 
