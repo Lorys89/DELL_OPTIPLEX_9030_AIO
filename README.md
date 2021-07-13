@@ -42,7 +42,7 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 - [x] ALC280 jack microphone
 - [x] ALC280 jack headphones
 - [x] All USB Ports 
-- [x] - [x] All Sensors (CPU, NVME, SATA, FAN)
+- [x] All Sensors (CPU, IGPU, NVME, SATA, FAN, WIFI)
 - [x] SpeedStep / Sleep / Wake
 - [x] Intel I217LM LAN
 - [x] Wi-Fi and Bluetooth BCM94360HMB (AW-CB160H) Module
