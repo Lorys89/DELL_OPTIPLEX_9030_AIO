@@ -23,13 +23,12 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 | SmBios           | Mac mini 7,1                       |
 | BootLoader       | OpenCore 0.7.1                     |
 
-![infobigsur](./Screenshot/infocacbigsur.png)
+![infomac](./Screenshot/infomac.png)
 
 ## Peripherals
 
-![infohack](./Screenshot/hackintooldevice.png)
-![infodp2](./Screenshot/DpciScreen2.png)
-![infopci](./Screenshot/PCISEZ.png)
+![infohack](./Screenshot/periph.png)
+![infodp2](./Screenshot/infopci.png)
 
 ### What works and What doesn't or WIP:
 
