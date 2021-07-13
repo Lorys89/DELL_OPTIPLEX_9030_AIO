@@ -18,10 +18,10 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 | Wifi + BT        | BCM94360HMB (AW-CB160H)            |
 | Audio            | Realtek ALC280                     |
 | Ram              | 16 GB DDR3 1600 Mhz                |
-| SSD              | SAMSUNG 860 EVO 500 GB (MACOS)     |
 | SSD              | SAMSUNG 860 EVO 500 GB (WINDOWS)   |
-| SmBios           | iMac 15,1                          |
-| BootLoader       | OpenCore                           |
+| NVME             | NE - 256 GB (MACOS)                |
+| SmBios           | Mac mini 7,1                       |
+| BootLoader       | OpenCore 0.7.1                     |
 
 ![infobigsur](./Screenshot/infocacbigsur.png)
 
@@ -44,14 +44,14 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 - [x] Wi-Fi and Bluetooth BCM94360HMB (AW-CB160H) Module
 - [x] HID Key PWRB & SLPB 
 - [x] CONTROLLER SATA III
+- [x] CONTROLLER NVME
 - [x] NVRAM
-- [x] Windows 10 boot from OpenCore
+- [x] Windows 11 boot from OpenCore
 
 ### Special Config:
 
 - Usb port mapping performed
 - SSDT-Hack Essential patch
-- Applied cosmetics PCI Dev
 
 See [ioreg](./ioregmac.ioreg) for more clarification
 
