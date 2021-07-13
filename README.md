@@ -29,6 +29,8 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 
 ![infohack](./Screenshot/periph.png)
 ![infodp2](./Screenshot/infopci.png)
+![fan&temp](./Screenshot/fan&tempcontrol.png)
+
 
 ### What works and What doesn't or WIP:
 
