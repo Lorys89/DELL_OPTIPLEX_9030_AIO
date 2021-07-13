@@ -56,6 +56,41 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 
 See [ioreg](./ioregmac.ioreg) for more clarification
 
+### MacOS bootable USB creation:
+- Read the Dortania guide for creating your USB from Windows or macOS
+- [Guide Dortania](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) - USB creation
+
+
+## Bios settings
+### Enable :
+* SATA Operation : AHCI
+* Integrated NIC : Enable
+
+### Disable : 
+* Secure Boot
+* Serial Port
+* Enable UEFI Network stack
+* Computrace
+* TPM Security
+* ASPM
+* cfg lock and DVMT DO AT YOUR OWN RISK!!! It may brick your PC.
+
+
+## Restart and at the opencore GUI, choose the modGRUBShell.efi (into Tools Folder)
+
+![CFG-LOCK](./Screenshot/CFG-LOCK.png)
+
+For set CFG LOCK Disabled
+
+setup_var 0xDAF 0x00
+
+![DMT-PRE](./Screenshot/DVMT-PRE.png)
+
+For set DVMT PRE Allocated to 64 MB
+
+setup_var 0x263 0x02
+
+
 ## Credits
 
 - [Apple](https://apple.com) for macOS;
