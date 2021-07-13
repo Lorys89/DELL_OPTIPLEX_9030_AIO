@@ -20,8 +20,10 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 | Ram              | 16 GB DDR3 1600 Mhz                |
 | SSD              | SAMSUNG 860 EVO 500 GB (WINDOWS)   |
 | NVME             | NE - 256 GB (MACOS)                |
-| SmBios           | Mac mini 7,1                       |
+| SmBios           | MacMini 7,1                        |
 | BootLoader       | OpenCore 0.7.1                     |
+| macOS            | Monterey 12.0 (Beta 2)             |
+
 
 ![infomac](./Screenshot/infomac.png)
 
@@ -40,6 +42,7 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 - [x] ALC280 jack microphone
 - [x] ALC280 jack headphones
 - [x] All USB Ports 
+- [x] - [x] All Sensors (CPU, NVME, SATA, FAN)
 - [x] SpeedStep / Sleep / Wake
 - [x] Intel I217LM LAN
 - [x] Wi-Fi and Bluetooth BCM94360HMB (AW-CB160H) Module
