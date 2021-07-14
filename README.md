@@ -56,6 +56,7 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 - [x] CONTROLLER NVME
 - [x] NVRAM
 - [x] Windows 11 boot from OpenCore
+- [x] Sidecar (thanks to the new kext)
 
 ### Special Config:
 
