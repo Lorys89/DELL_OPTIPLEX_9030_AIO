@@ -38,16 +38,21 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 
 - [x] Intel HD Graphics 4600 iGPU HDMI/DP Output
 - [x] ALC280 Internal Speakers
+- [x] ALC280 Internal microphone
 - [x] ALC280 HDMI/DP Audio Output
-- [x] ALC280 jack microphone
-- [x] ALC280 jack headphones
+- [x] ALC280 front combojack HP/Mic
+- [x] ALC280 rear jack speaker
+- [x] Webcam FHD Internal
+- [x] Slot SD card reader
 - [x] All USB Ports 
 - [x] All Sensors (CPU, IGPU, NVME, SATA, FAN, WIFI)
 - [x] SpeedStep / Sleep / Wake
+- [x] Native brightness side buttons
 - [x] Intel I217LM LAN
 - [x] Wi-Fi and Bluetooth BCM94360HMB (AW-CB160H) Module
 - [x] HID Key PWRB & SLPB 
 - [x] CONTROLLER SATA III
+- [x] Internal Sata DVD-RW
 - [x] CONTROLLER NVME
 - [x] NVRAM
 - [x] Windows 11 boot from OpenCore
@@ -72,10 +77,9 @@ See [ioreg](./ioregmac.ioreg) for more clarification
 ### Disable : 
 * Secure Boot
 * Serial Port
+* Legacy support
 * Enable UEFI Network stack
 * Computrace
-* TPM Security
-* ASPM
 * cfg lock and DVMT DO AT YOUR OWN RISK!!! It may brick your PC.
 
 
