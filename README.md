@@ -65,6 +65,7 @@ EFI for Dell Optiplex 9030 All in One with OpenCore bootloader
 - SSDT-Hack Essential patch
 
 See [ioreg](./ioregmac.ioreg) for more clarification
+
 See [SSDT](./EFI/OC/ACPI/SSDT-HACK.dsl)
 
 ### MacOS bootable USB creation:
